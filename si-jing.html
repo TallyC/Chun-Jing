@@ -1060,6 +1060,11 @@ body.lang-en .vertical,body.lang-en [class*="vert"]{writing-mode:horizontal-tb!i
 html.embed .topbar,html.embed .dock,html.embed #introOverlay{display:none!important}
 html.embed body{padding-top:8px;padding-bottom:24px;font-family:"Noto Serif TC","Songti TC","Source Han Serif TC","PMingLiU",serif}
 html.embed .stage{padding-bottom:30px}
+html.embed [data-go="home"]{display:none!important}
+html.embed .view{padding-top:6px}
+html.embed .zen-btn,html.embed .text-link{border-radius:999px}
+html.embed .zen-btn.seal{background:#24221e;color:#f4ede0;border:0;letter-spacing:.15em}
+
 .top-links .text-link,.zen-btn,.chip-btn,button{min-height:44px}
 .nw{white-space:nowrap}
 </style>
@@ -1390,7 +1395,7 @@ html.embed .stage{padding-bottom:30px}
     </div>
     <div class="canvas-caption">
       <span id="bellHud">按住木槌向右拉開再放手（已叩 0 / 3 響）</span>
-      <button type="button" class="text-link" id="resetBellBtn">重叩三響</button>
+      <button type="button" class="text-link" id="resetBellBtn">再叩一聲</button>
     </div>
 
     <div class="dharma-folio" id="dharma-bell">
